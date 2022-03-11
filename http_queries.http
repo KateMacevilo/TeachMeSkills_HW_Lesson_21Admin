@@ -1,0 +1,37 @@
+POST http://localhost:8080/addUser
+Content-Type: application/x-www-form-urlencoded
+
+name=Ryhor&lastName=Fedotov&age=24
+
+###
+
+POST http://localhost:8080/deleteAll
+Content-Type: application/x-www-form-urlencoded
+
+###
+
+POST http://localhost:8080/deleteByID
+Content-Type: application/x-www-form-urlencoded
+
+IDUser=9
+
+###
+
+GET http://localhost:8080/SelectByID
+Content-Type: application/x-www-form-urlencoded
+
+IDUser=8
+
+###
+
+GET http://localhost:8080/adminAllInfo
+Content-Type: application/x-www-form-urlencoded
+
+###
+
+POST http://localhost:8080/updateAge
+Content-Type: application/x-www-form-urlencoded
+
+IDUser=7&age=35
+
+###
