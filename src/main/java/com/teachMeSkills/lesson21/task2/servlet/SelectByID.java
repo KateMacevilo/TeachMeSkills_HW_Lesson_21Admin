@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.*;
 
-@WebServlet("/SelectByID")
+@WebServlet("/selectByID")
 public class SelectByID extends HttpServlet {
 
     private static final String SELECT_BY_ID = "SELECT * FROM users WHERE iduser = ?";
